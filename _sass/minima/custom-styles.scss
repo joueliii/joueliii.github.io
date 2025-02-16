@@ -1,2 +1,26 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+
+.category-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.category-box {
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: #222;
+  color: #E0E0E0;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s ease-in-out;
+}
+
+.category-box:hover {
+  background-color: #444;
+}
+
