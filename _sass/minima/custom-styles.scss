@@ -29,12 +29,12 @@ body {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
 
-/* Import Oooh Baby Font */
-@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+/* Import DM Serif Display from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
-/* Apply Oooh Baby to Category Headers */
+/* Apply DM Serif Display to Category Headers */
 .category-box h2 {
-  font-family: 'Oooh Baby', cursive;
+  font-family: 'DM Serif Display', serif;
   font-size: 2rem;
   font-weight: normal;
   letter-spacing: 1px;
