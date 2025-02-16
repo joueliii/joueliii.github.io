@@ -109,3 +109,31 @@ a:hover {
   background-color: #4a4e69;
   color: #f2e9e4;
 }
+
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Ensures image covers the container */
+  max-height: 400px; /* Adjust height as needed */
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero h1, .hero p {
+  margin: 0;
+  font-size: 2rem;
+}
+
