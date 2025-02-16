@@ -116,6 +116,16 @@ a:hover {
   text-align: center;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:wght@400;700&display=swap');
+
+.hero h1 {
+  font-family: 'Ysabeau', serif;
+  font-weight: 700; /* Makes it bold like the category headers */
+  font-style: normal; /* Ensures it's not italic */
+  font-size: 2.5rem; /* Adjust as needed */
+  color: #f2e9e4; /* Light color from your palette */
+}
+
 .round-image {
   width: 200px; /* Adjust the size */
   height: 200px; /* Ensure width and height are equal */
