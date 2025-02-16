@@ -53,3 +53,47 @@ body {
   color: $link-hover-color;
   text-decoration: underline;
 }
+
+/* Global Link Styling */
+a {
+  color: #c9ada7; /* Warm Beige-Pink */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #9a8c98; /* Muted Rose */
+  text-decoration: underline;
+}
+
+/* Blog Post Links */
+.post-list a, .post-title a {
+  color: #c9ada7; /* Warm Beige-Pink */
+  font-weight: bold;
+}
+
+.post-list a:hover, .post-title a:hover {
+  color: #9a8c98; /* Muted Rose */
+}
+
+/* Navigation Links */
+.site-nav a {
+  color: #f2e9e4; /* Soft Cream */
+  font-weight: bold;
+}
+
+.site-nav a:hover {
+  color: #c9ada7; /* Warm Beige-Pink */
+}
+
+/* Pagination Links */
+.pagination a {
+  color: #c9ada7;
+  border: 1px solid #9a8c98;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+.pagination a:hover {
+  background-color: #4a4e69;
+  color: #f2e9e4;
+}
