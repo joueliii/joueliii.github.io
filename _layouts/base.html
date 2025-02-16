@@ -11,12 +11,36 @@
       <div class="wrapper">
         {{ content }}
 
-        <!-- Category Boxes -->
-      <div class="category-boxes">
-      <a href="/category1/" class="category-box">Finnish</a>
-      <a href="/category2/" class="category-box">Photography & Art</a>
-      <a href="/category3/" class="category-box">Coding & Technology</a>
+       <!-- Category Sections -->
+      <div class="category-container">
+        <div class="category-box">
+          <h2>Coding</h2>
+          <ul>
+            <li><a href="/coding/tutorials">Tutorials</a></li>
+            <li><a href="/coding/projects">Projects</a></li>
+            <li><a href="/coding/resources">Resources</a></li>
+          </ul>
+        </div>
+  
+        <div class="category-box">
+          <h2>Teaching</h2>
+          <ul>
+            <li><a href="/teaching/methods">Teaching Methods</a></li>
+            <li><a href="/teaching/tools">Educational Tools</a></li>
+            <li><a href="/teaching/courses">Courses</a></li>
+          </ul>
+        </div>
+  
+        <div class="category-box">
+          <h2>Photography</h2>
+          <ul>
+            <li><a href="/photography/tips">Photography Tips</a></li>
+            <li><a href="/photography/equipment">Best Equipment</a></li>
+            <li><a href="/photography/portfolio">My Portfolio</a></li>
+          </ul>
+        </div>
       </div>
+    </div>
     </main>
 
     {%- include footer.html -%}
