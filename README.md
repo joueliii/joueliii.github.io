@@ -4,5 +4,5 @@ The site is a modified version of the Jekyll Minima theme: https://github.com/je
 
 ### License 
 
-Please see in the license section of the repository. 
+Please see the license section of the repository. 
 
