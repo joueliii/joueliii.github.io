@@ -113,8 +113,8 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: #c9ada7;
-  color: $link-base-color;
-  text-decoration: none;
+  /* color: $link-base-color;
+  text-decoration: none; */
 
   &:visited {
     color: $link-visited-color;
